@@ -31,7 +31,7 @@ namespace Revit.TestRunner
                 ToolTip = "Open the Test Runner Dialog\nStart Tests using the Revit API.",
                 Image = GetImage( "Testing.png", 16 ),
                 LargeImage = GetImage( "Testing.png", 32 ),
-                AvailabilityClassName = typeof( AvailableInStartScreen ).FullName
+                //AvailabilityClassName = typeof( AvailableInStartScreen ).FullName
             };
 
             ribbonPanel.AddItem( buttonData );
